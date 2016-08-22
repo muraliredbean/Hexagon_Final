@@ -1,0 +1,180 @@
+
+
+.content1 {
+  margin: auto;
+  width: 76%;
+  
+}
+
+.slick-slider {
+  margin: 30px auto 50px;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+	cursor: pointer;
+	border-radius:50%;
+	border:0px;
+	outline: none;
+	background-color:#d5d110;
+}
+
+
+.slick-prev {
+  left: -65pt;
+}
+
+.slick-next {
+  right: -65pt;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.quote-container {
+  min-height: 200px;
+  color: #666666;
+  font-size: 36px;
+  margin: 0 20px;
+  position: relative;
+}
+.quote-container:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.quote-container .portrait {
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  height: 140px;
+  width: 140px;
+  border-radius:50%;
+  outline:none;
+  border:none;
+  overflow: hidden;
+}
+.quote-container .portrait img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.quote-container .quote {
+  position: relative;
+  z-index: 600;
+  padding: 40px 0 40px 180px;
+  margin: 0;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.4 !important;
+  font-family: Georgia,Italic;
+  color: #808080;
+  
+}
+.quote-container .quote p {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom:10px;
+  border-bottom:1px solid #00205b;
+  font-family: Georgia;
+  font-size: 24px;
+  font-style: italic; 
+  text-align:left;
+}
+.quote-container .quote p:first-child:before {
+  content: '\201C';
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 7.5em;
+  font-weight: 700;
+  opacity: 1;
+  position: absolute;
+  top: -.4em;
+  left: -.2em;
+  text-shadow: none;
+  z-index: -10;
+}
+.quote-container .quote cite {
+  display: block;
+  font-size: 18px;
+  color: #071C3A;
+  font-family: 'OpenSans-Light';
+  font-weight:900;
+  font-style:normal;
+}
+.quote-container .quote cite span {
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.dragging .quote-container {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.octogon {
+  height: 140px;
+  width: 140px;
+  border-radius:50%;
+  outline:none;
+  border:none;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 5% 0%;
+  }
+  50% {
+    background-position: 96% 100%;
+  }
+  100% {
+    background-position: 5% 0%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 5% 0%;
+  }
+  50% {
+    background-position: 96% 100%;
+  }
+  100% {
+    background-position: 5% 0%;
+  }
+}
+
+@media (max-width:1366px){
+.content1 {
+  width: 80%;
+}	
+}
+
+@media (max-width:1024px){
+.content1 {
+  width: 74%;
+}	
+}

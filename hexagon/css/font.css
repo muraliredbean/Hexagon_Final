@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'TitilliumWeb-Regular'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-Black'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-Black.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-Bold'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-Bold.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-BoldItalic'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-BoldItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-ExtraLight'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-ExtraLight.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-ExtraLightItalic'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-ExtraLightItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-Italic'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-Italic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-Light'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-Light.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-LightItalic'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-LightItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-Regular'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-SemiBold'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-SemiBold.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'TitilliumWeb-SemiBoldItalic'; /*a name to be used later*/
+    src: url('../fonts/TitilliumWeb-SemiBoldItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-Bold'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-Bold.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-BoldItalic'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-BoldItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-ExtraBold'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-ExtraBold.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-ExtraBoldItalic'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-ExtraBoldItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-Italic'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-Italic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-Light'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-Light.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-LightItalic'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-LightItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-Regular'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-SemiBold'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-SemiBold.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans-SemiboldItalic'; /*a name to be used later*/
+    src: url('../fonts/OpenSans-SemiboldItalic.ttf'); /*URL to font*/
+}

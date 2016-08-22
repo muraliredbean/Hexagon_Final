@@ -1,0 +1,229 @@
+/* ==========================================================================
+		Slider core styles
+===========================================================================*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  background:#031a37;
+}
+
+.slider {
+  position: relative;
+  width: 9999px;
+}
+.slider:before,
+.slider:after {
+  display: table;
+  content: ' ';
+}
+.slider:after {
+  clear: both;
+}
+.slider .slide {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.slider .slide img {
+  display: block;
+  width: 100%;
+  height:712px;
+}
+.act,
+#prev > span,
+#next > span,
+#slider-nav > a {
+  background: url(images/arrows.png) no-repeat;
+}
+#next > span,
+#prev > span {
+  display: block;
+  width: 16px;
+  height: 24px;
+}
+/* Arrows */
+#next > span {
+  background-position: -20px 0;
+}
+#prev > span {
+  background-position: 0 0;
+}
+#next {
+	width: 50px;
+	display: inline-block;
+	top: 95.5%;
+	float:right;
+	margin-top:40px;
+	margin-bottom:40px;
+	padding: 10px 15px;
+	text-align:center;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border-radius: 50%;
+	border:1px solid #FFF;
+	margin-right:40%;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000'); /* ie8 */
+	-o-user-select: none;
+}
+
+#prev {
+	width: 50px;
+	display: inline-block;
+	top: 95.5%;
+	margin-left:40%;
+	margin-top:40px;
+	margin-bottom:40px;
+	padding: 10px 15px;
+	text-align:center;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border-radius: 50%;
+	border:1px solid #FFF;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000'); /* ie8 */
+	-o-user-select: none;
+}
+#prev {
+  left: 10px;
+}
+#next {
+  right: 10px;
+}
+.caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  padding: 0 10px 30px;
+  color: #fff;
+  background: rgba(0,0,0,.8);
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0, .8), transparent 100%);
+  background: linear-gradient(to top, rgba(0,0,0, .8), transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000'); /* ie8 */
+}
+.caption a {
+  display: block;
+  color: #fff;
+}
+.slider-nav {
+  line-height:0px;
+  margin-top:-70px;
+  height: 35px;
+  margin-left: 43%;
+  text-align: center;
+  /*background: #323232;*/
+  /*opacity: .9;*/
+  display: block;
+  filter: alpha(opacity=90); /* ie8 */
+}
+.slider-nav a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left:1.4%;
+  margin-right:1.4%;
+  padding-top:-250px;
+  background:#FFF;
+  -webkit-transition: background .5s ease;
+     -moz-transition: background .5s ease;
+       -o-transition: background .5s ease;
+          transition: background .5s ease;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor:pointer;
+}
+
+.slider-nav .active {
+  width: 10px;
+  height: 10px;
+  background: #d5d110;
+  border: 2px solid #FFF;
+}
+@media (max-width: 580px) {
+  .caption {
+    display: none;
+  }
+}
+@media(max-width:1024px){
+	.slider-nav a {
+		margin-left:3%;
+		margin-right:3%;
+	}
+	#prev{
+		margin-left:30%;
+	}
+	#next{
+		margin-right:30%;
+	}
+	.slider-nav {
+		margin-left:33%;
+	}
+}
+@media(max-width:720px){
+	.slider-nav {
+		margin-left:35%;
+	}
+}
+@media(max-width:720px){
+	.slider-nav {
+		margin-left:38%;
+	}
+}
+@media(max-width:480px){
+	.slider-nav a {
+		margin-left:3%;
+		margin-right:3%;
+	}
+	#prev{
+		margin-left:20%;
+		margin-bottom:23px;
+		margin-top:23px;
+	}
+	#next{
+		margin-right:20%;
+		margin-bottom:23px;
+		margin-top:23px;		
+	}
+	.slider-nav {
+		margin-left:30%;
+		margin-top: -53px;
+	}
+	.slider .slide img {
+		height: 140px;
+	}	
+	.life-hexagon {
+		padding-top: 46px;
+		padding-bottom: 23px;
+	}	
+}
+@media(max-width:360px){
+	.slider-nav a {
+		margin-left:5%;
+		margin-right:5%;
+	}
+	#prev{
+		margin-left:12%;
+	}
+	#next{
+		margin-right:12%;
+	}
+	.slider-nav {
+		margin-left:25%;
+	}
+}

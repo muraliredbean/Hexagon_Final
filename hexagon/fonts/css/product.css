@@ -1,0 +1,352 @@
+#product-section-1{
+	min-height:528px;
+	height:auto;
+	background: url(../img/products/banner-1-01.png) 100% 0 no-repeat fixed;
+}
+.product-logo{
+	text-align:center;
+	padding-top:84px;
+	padding-bottom:84px;
+}
+.header-division{
+	min-height:32px;
+	height:auto;
+	background-color:#0072C7;
+}
+.product-section-2{
+	width: 100%;
+    padding-bottom: 140px;
+    height: auto;
+    padding-top: 140px;
+}
+.top-heading{
+	text-align:center;
+	font-size:24px;
+	font-family:'OpenSans-Regular';
+	color:#0072C7;
+	line-height: 150%;
+	margin-bottom:80px;	
+}
+.product-sub-content{
+	padding-top:80px;
+	
+}
+
+.product-slider{
+	height:auto;
+	overflow:auto;
+	padding-top:110px;
+	padding-bottom:90px;
+}
+.right-heading{
+	font-size:18px;
+	font-family:'OpenSans-Light';
+	color:#4d4d4d;
+	line-height: 150%;
+	margin-bottom:80px;	
+	text-align:left;
+}
+.team-advisors{
+	width:100%;
+	background-color:#E8F5FF;
+	padding-bottom:140px;
+	height:auto;
+	padding-top:140px;	
+}
+.section-feature{
+	background-color:#D1EBFF;
+	width:100%;
+	padding-bottom:140px;
+	height:auto;
+	padding-top:140px;
+}
+.grey-patch{
+	background-color:#F2F2F2;
+	width:100%;
+	padding-bottom:140px;
+	height:auto;
+	    overflow: auto;
+	padding-top:140px;
+}
+.grey-patch-logo{
+	text-align:center;
+}
+.feature-heading{
+	font-size:32px;
+	font-family:'TitilliumWeb-SemiBold';
+	color:#0072C7;
+	line-height: 150%;
+	margin-bottom:80px;	
+	text-align:center;
+}
+.heading{
+	font-size:24px;
+	font-family:'TitilliumWeb-SemiBold';
+	color:#0072C7;
+	line-height: 150%;
+	text-align:left;
+}
+.separator{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #3880D6;
+}
+.sub-content{
+	font-size:18px;
+	font-family:'OpenSans-Light';
+	color:#4D4D4D;
+	line-height: 150%;
+	text-align:left;
+}
+.feature-2{
+	background-color:#fff;
+	width:100%;
+	padding-bottom:140px;
+	height:auto;
+	padding-top:140px;
+}
+.feature-heading-1{
+	font-size:32px;
+	font-family:'TitilliumWeb-SemiBold';
+	color:#0072C7;
+	line-height: 150%;
+	margin-left:5%;
+	text-align:center;
+}
+#ezee-download{
+	background-color:#006fc2;
+	padding-top:88px;
+	padding-bottom:88px;
+	height:350px;
+}
+.download-label{
+	font-size:32px;
+	font-family:'TitilliumWeb-SemiBold';
+	color:#FFF;
+	text-align:center;
+	margin-bottom:30px;
+}
+.ezee-advice-img{
+	float:right;
+	margin-right:50px;
+}
+
+.ezee-invest-img{
+	float:left;
+	padding-left:8%;
+	border-left: 1px solid #FFF;
+}
+.separator-center{
+	margin-top: 25px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #3880D6;
+}
+.product-benefits{
+	width:100%;
+	max-width:720px;
+	margin:auto;
+}
+.imatch{
+	padding-bottom:140px;
+}
+#menu-two1 li {
+	display: inline-block;
+	padding: 24px 15px;
+}
+
+#menu-two1 li a {
+	color: #757575;
+	font-family: 'Myriad Pro','Regular';
+	font-size:12px;	
+	color:#4d4d4d;
+	outline:none;
+}
+#menu-two1 li a:hover{
+    color: #092854;
+	padding-bottom:5px;
+	border-bottom:2px solid #d5d33d;	  
+}
+#menu-two1 li a.active{
+    color: #092854;
+	padding-bottom:5px;
+	border-bottom:2px solid #d5d33d;	  
+}
+#menu-two1 {
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background: #d1edff;
+	padding-left:72px;
+	padding-right:72px;
+	text-align:center;
+}
+.menu-two-fixed {
+	position: fixed; 
+	top: 70px; 
+	height: 70px; 
+	z-index: 1;
+}
+.submenu-div{
+	display:none;
+}
+.client-patch-logo{
+	padding-right:140px;
+
+}
+.client-logo{
+	padding-left:200px;
+	padding-right:200px;
+}
+.mytitles{
+    border-top: 1px solid #3880d6;
+	padding-top:22.5px;
+	padding-bottom:22.5px;
+	max-width: 1200px;
+}
+.ui.styled.accordion .active.title1{
+	background: #fff;
+    color: #0d356c;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.mod_heading{
+	color:#0072C7;
+	font-family:'TitilliumWeb-SemiBold';
+	font-size:32px;
+}
+.ezee-color{
+	color:#0072C7;
+	font-family:'OpenSans-SemiBold';
+}
+.ezee-content{
+	width:100%; 
+	max-width:1200px; 
+	margin:auto;
+}
+.advisors-container{
+	width:100%; 
+	max-width:1200px; 
+	margin:auto;	
+}
+
+@media (max-width:1200px){
+	.ezee-content, .advisors-container {
+    width: 92%;
+    max-width: 1200px;
+    margin: auto;
+}
+}
+@media (max-width:960px){
+.right-heading{
+    margin-bottom: 30px;
+}
+.team-advisors{
+	padding-bottom: 120px;
+}
+.ezee-feature{
+	margin-bottom:80px;
+}
+
+.ezee-advice-img {
+    float: none;
+    margin-right: 0px;
+	margin-bottom:50px;
+	margin-top:30px;
+}
+.ezee-invest-img {
+    float: none;
+    padding-left: 0%;
+    border-left: none;
+	margin-bottom:50px;
+}
+#ezee-download {
+    height: auto;
+}
+.ezee-img-div{
+	text-align:center;
+}
+}
+
+@media (max-width:480px){
+.product-slider{
+	padding-top:0px;
+	padding-bottom:0px;
+}	
+.imatch {
+    padding-bottom: 0px;
+}	
+.mytitles{
+	font-size:24px;
+}
+.section-feature {
+    padding-bottom: 60px;
+}
+.team-advisors{
+	padding-bottom: 23px;
+	padding-top: 46px;
+}	
+.top-heading {
+    font-size: 18px;
+	margin-bottom: 23px;
+}
+.right-heading{
+    margin-bottom: 23px;
+	font-size: 12px;
+}
+.section-feature {
+    padding-bottom: 46px;
+    padding-top: 46px;
+}
+.feature-heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.heading {
+    font-size: 18px;
+}
+.separator {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.sub-content {
+    font-size: 12px;
+}
+.ezee-feature {
+    margin-bottom: 46px;
+}
+.feature-2 {
+    padding-bottom: 46px;
+    padding-top: 46px;
+}
+.feature-heading-1 {
+    font-size: 24px;
+    margin-left: 0%;
+}
+.grey-patch {
+    padding-bottom: 46px;
+    padding-top: 46px;
+	overflow:hidden;
+}
+#ezee-download {
+    padding-top: 46px;
+    padding-bottom: 46px;
+    height: auto;
+	overflow:auto;
+}
+.ezee-advice-img {
+	margin-bottom:30px;
+	margin-top:10px;
+}
+.ezee-invest-img {
+	margin-bottom:0px;
+}
+}
+
+@media (max-width:720px){
+.product-benefits{
+	padding-left:4%;
+	padding-right:4%;
+}	
+}

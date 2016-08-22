@@ -1,0 +1,26 @@
+
+.image-container{
+	text-align: right;
+	margin: 35px 0 35px;
+	position: relative;
+}
+.image-container img{
+	padding: 0 0 12px 14px;
+}
+.image-container .first{
+	padding-left: 0;
+}
+
+
+
+.ie11 .img_wrapper{
+	margin-bottom: 14px;
+}
+.corner-badge{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 233px;
+	height: 230px;
+}

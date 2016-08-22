@@ -1,0 +1,350 @@
+#services-section-1 {
+	background: url(../img/services-banner.jpg) 100% 0 no-repeat fixed;
+	background-size: cover;
+}
+@media only screen and (device-height: 1024px) and (device-width: 768px){
+#services-section-1 {
+	background: url(../img/services-banner.jpg) 100% 0 no-repeat;
+	background-size: cover;
+}	
+}
+#services-section-2{
+	background:#031a37;
+	height:auto;
+	overflow:auto;
+}
+#services-section-3{
+	height:auto;
+	overflow:hidden;	
+}
+#services-section-4{
+	height:400px;
+	background:#F2F2F2;
+}
+.services-section-name span{
+	display: inline-block;
+    position: relative;
+    padding-bottom: 36px;
+    line-height: 80px;
+}
+
+.services-section-name{
+	font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'TitilliumWeb-SemiBold';
+    margin: 0;
+    color: #FFF;
+}
+.services-section-description {
+	font-family:"OpenSans-Light";
+	font-size:24px;
+    text-align: center;
+    line-height:30px;
+	color:#FFF;	
+}
+.services-offer{
+	font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'TitilliumWeb-SemiBold';
+    margin: 0;
+    color: #91D0FF;
+	padding-top:140px;
+	margin-bottom:20px;
+}
+.services-description{
+	font-family:"OpenSans-Light";
+	font-size:24px;
+    text-align: center;
+    line-height:30px;
+	color:#FFF;	
+	margin-bottom:80px;	
+}
+.services-icons-division{
+		
+}
+.services-icons{
+	display:inline-block;
+	text-align:center;
+}
+.services-icon-img{
+	height:62px;
+	width:62px;
+	margin-bottom:28px;
+}
+.services-icon-content{
+	font-family:"OpenSans-Light";
+	font-size:18px;
+    text-align: center;
+    line-height:30px;
+	color:#FFF;	
+	padding-bottom:140px;
+}
+.case-studies{
+	padding-bottom:140px;
+	padding-top:140px;
+	padding-left:13.5%;
+	padding-right:13.5%;
+}
+.case-studies-title{
+	font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'TitilliumWeb-SemiBold';
+    margin: 0;
+    color: #0072C7;
+	padding-bottom:80px;	
+}
+.case-sub-head{
+	font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'TitilliumWeb-SemiBold';
+    margin: 0;
+    color: #0D356E;
+	margin-left: 45px;
+	margin-top:60px;
+}
+.download-band{
+	background:#0072C7;
+	width:200%;
+	margin-top:40px;
+	padding:0px;
+	margin-left:-50%;
+}
+.button-div{
+	padding-top:40px;
+	padding-bottom:40px;
+    text-align: center;
+    width: 88%;
+	margin: auto;
+}
+.download_button {
+	background-color:transparent;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	border-radius:40px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'TitilliumWeb-SemiBold';
+	font-size:20pt;
+	height:46px;
+	padding-left:40px;
+	padding-right:40px;
+	text-align:center;
+	text-decoration:none;
+}
+.download_button:focus {
+outline:none;
+}
+.client-section
+{
+	padding-top:85px;
+	text-align:center;
+}
+.service-client-logo{
+	
+	padding-left:35px; 
+	padding-right:35px;
+}
+.client-section2{
+	padding-top:45px;
+	text-align:center;
+}
+.service-client-logo2{
+	padding-left: 65px;
+    padding-right: 60px;
+}
+.service-container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+	width:88%;
+}
+.service-span{
+	display:block;
+}
+@media (max-width:767px){
+.services-icons-division {
+    margin: auto;
+    text-align: center;
+}
+}
+@media only screen and (min-width: 1440px) and (max-width:1599px) {
+.case-studies {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+}
+@media only screen and (min-width: 1366px) and (max-width:1439px) {
+.case-studies {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+}
+@media only screen and (min-width: 1280px) and (max-width:1365px) {
+.case-studies {
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+}
+}
+@media only screen and (min-width: 1200px) and (max-width:1279px) {
+.case-studies {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+.case-studies {
+    padding-left: 4%;
+    padding-right: 3%;
+}
+ .service-content{
+	 padding-left:4%;
+ }
+}
+@media (max-width:1024px){
+.case-studies {
+    padding-left: 5%;
+    padding-right: 5%;
+}	
+ .service-content{
+	 padding-left:6%;
+ }	
+}
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+ .service-content{
+	 padding-left:4%;
+ }
+ .case-studies {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+}
+@media only screen and (min-width: 840px) and (max-width: 959px) {
+ .service-content{
+	 padding-left:3.5%;
+ }
+ .case-studies {
+    padding-left: 8%;
+    padding-right: 6%;
+}
+}
+@media only screen and (min-width: 720px) and (max-width: 839px) {
+ .service-content{
+	 padding-left:3%;
+ }
+ .case-studies {
+    padding-left: 9%;
+    padding-right: 7%;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 719px) {
+ .service-content{
+	 padding-left:2%;
+ }
+ .case-studies {
+    padding-left: 8%;
+    padding-right: 6%;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+ .service-content{
+	 padding-left:1%;
+ }
+ .case-studies {
+    padding-left: 11%;
+    padding-right: 8%;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 480px) {
+ .case-studies {
+    padding-left: 10%;
+    padding-right: 8%;
+}
+ .service-content{
+	 padding-left:0%;
+	 margin-left:-0.5%;
+	 padding-right: 20px;
+ }
+}
+@media only screen and (min-width: 320px) and (max-width: 399px) {
+ .case-studies {
+    padding-left: 12%;
+    padding-right: 10%;
+}
+ .service-content{
+	 margin-left:-11%;
+ }
+}
+
+@media (max-width: 960px) {
+.services-section-description p br {
+	display:none;
+}
+}
+
+@media (max-width: 991px) {
+.services-icon-content {
+    padding-bottom: 46px;
+}
+.services-icon-img {
+    margin-bottom: 23px;
+}
+.services-description {
+    margin-bottom: 46px;
+}
+.services-offer {
+    padding-top: 46px;
+}
+ .case-studies {
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+.case-studies-title {
+    padding-bottom: 46px;
+}
+.case-sub-head {
+    margin-top: 23px;
+}
+}
+@media (max-width: 480px) {
+.services-section-name {
+    font-size: 32px;
+}	
+.services-section-name span {
+    line-height: 40px;
+}
+.services-section-description {
+    font-size: 12px;
+    line-height: 20px;
+}
+.services-offer {
+    padding-top: 46px;
+	font-size: 32px;
+}
+.services-description {
+    font-size:12px;
+    line-height: 20px;
+}
+.services-icon-content {
+    font-size: 12px;
+    line-height: 20px;
+}
+.case-studies-title {
+    font-size: 32px;
+}
+.case-sub-head {
+    font-size: 12px;
+}
+}
+@media (max-width: 1023px) {
+.case-sub-head {
+    margin-left: 0px;
+}
+}
